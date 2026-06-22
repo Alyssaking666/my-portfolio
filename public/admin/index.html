@@ -1,0 +1,80 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>内容管理后台 - Alyssa Marketing</title>
+  <script src="https://unpkg.com/decap-cms@^3.0.0/dist/decap-cms.js"></script>
+</head>
+<body>
+  <script>
+    CMS.init({
+      config: {
+        backend: {
+          name: 'github',
+          repo: 'Alyssaking666/my-portfolio',
+          branch: 'main',
+          base_url: 'https://api.netlify.com',
+          auth_endpoint: 'auth'
+        },
+        media_folder: 'public/images/uploads',
+        public_folder: '/images/uploads',
+        collections: [
+          {
+            name: 'about',
+            label: '关于我',
+            folder: 'content/about',
+            create: false,
+            slug: '{{slug}}',
+            fields: [
+              { label: '标题', name: 'title', widget: 'string' },
+              { label: '内容', name: 'body', widget: 'markdown' }
+            ]
+          },
+          {
+            name: 'cases',
+            label: '案例研究',
+            folder: 'content/cases',
+            create: true,
+            slug: '{{slug}}',
+            fields: [
+              { label: '案例标题', name: 'title', widget: 'string' },
+              { label: '客户/品牌', name: 'client', widget: 'string' },
+              { label: '摘要', name: 'summary', widget: 'text' },
+              { label: '详细内容', name: 'body', widget: 'markdown' },
+              { label: '封面图', name: 'cover', widget: 'image', required: false },
+              { label: '标签', name: 'tags', widget: 'list', required: false }
+            ]
+          },
+          {
+            name: 'skills',
+            label: '技能项目',
+            folder: 'content/skills',
+            create: true,
+            slug: '{{slug}}',
+            fields: [
+              { label: '项目名称', name: 'title', widget: 'string' },
+              { label: '技术栈', name: 'stack', widget: 'string' },
+              { label: '描述', name: 'body', widget: 'markdown' },
+              { label: 'GitHub链接', name: 'github', widget: 'string', required: false },
+              { label: '网站链接', name: 'website', widget: 'string', required: false }
+            ]
+          },
+          {
+            name: 'highlights',
+            label: '数据亮点',
+            folder: 'content/highlights',
+            create: true,
+            slug: '{{slug}}',
+            fields: [
+              { label: '数字', name: 'number', widget: 'string' },
+              { label: '标题', name: 'title', widget: 'string' },
+              { label: '描述', name: 'description', widget: 'text' }
+            ]
+          }
+        ]
+      }
+    });
+  </script>
+</body>
+</html>
