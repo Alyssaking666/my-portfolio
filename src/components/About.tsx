@@ -47,9 +47,10 @@ export default function About() {
               className="w-64 h-80 md:w-72 md:h-96 rounded-2xl overflow-hidden avatar-line-container"
             >
               <img
-                src="/avatar-new.png"
+                src="/avatar-new.webp"
                 alt="Alyssa Lai"
                 className="w-full h-full object-cover"
+                loading="lazy"
               />
             </div>
           </motion.div>

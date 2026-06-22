@@ -10,18 +10,18 @@ const fadeInUp = {
 }
 
 const LISTENING = [
-  { name: '不易', artist: '呓语', img: '/album-yiyu.jpg' },
-  { name: '打上花火', artist: '米津玄师', img: '/album-dahuahuo.jpg' },
-  { name: 'Swag', artist: 'Miyauchi', img: '/album-swag.jpg' },
-  { name: '神のまにまに', artist: 'れるりり', img: '/fun-1.jpg' },
+  { name: '不易', artist: '呓语', img: '/album-yiyu.webp' },
+  { name: '打上花火', artist: '米津玄师', img: '/album-dahuahuo.webp' },
+  { name: 'Swag', artist: 'Miyauchi', img: '/album-swag.webp' },
+  { name: '神のまにまに', artist: 'れるりり', img: '/fun-1.webp' },
 ]
 
 const WATCHING = [
-  { name: '咒术回战', img: '/watch-zhoushuhuizhan.jpg' },
-  { name: '情书', img: '/watch-qingshu.jpg' },
-  { name: '钻石王牌', img: '/watch-zuanshiwangpai.jpg' },
-  { name: '蓝色大门', img: '/watch-lansedamen.jpg' },
-  { name: '还有明天', img: '/watch-haiyoumingtian.jpg' },
+  { name: '咒术回战', img: '/watch-zhoushuhuizhan.webp' },
+  { name: '情书', img: '/watch-qingshu.webp' },
+  { name: '钻石王牌', img: '/watch-zuanshiwangpai.webp' },
+  { name: '蓝色大门', img: '/watch-lansedamen.webp' },
+  { name: '还有明天', img: '/watch-haiyoumingtian.webp' },
 ]
 
 const PHOTOS = ['/fun-1.jpg', '/fun-2.jpg', '/fun-3.jpg', '/fun-4.jpg']

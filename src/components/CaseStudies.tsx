@@ -205,7 +205,7 @@ function Case1Detail({ onBack }: { onBack: () => void }) {
           {/* Hero */}
           <header className="case-hero">
             <div className="case-hero-banner">
-              <img src="/case1-banner.jpg" alt="PenPen Banner" />
+              <img src="/case1-banner.webp" alt="PenPen Banner" />
               <div className="case-hero-overlay">
                 <h1>PenPen:<br />Global Brand Growth.</h1>
                 <div className="case-hero-meta">
@@ -247,7 +247,7 @@ function Case1Detail({ onBack }: { onBack: () => void }) {
               </div>
               {/* 右侧：大配图 */}
               <div className="case-image-box case-no-border" style={{ background: '#fff', borderRadius: '12px', overflow: 'hidden' }}>
-                <img src="/case1-amazon.png" alt="Amazon Reviews" className="w-full h-full object-contain" />
+                <img src="/case1-amazon.webp" alt="Amazon Reviews" className="w-full h-full object-contain" />
               </div>
             </div>
           </section>
@@ -257,7 +257,7 @@ function Case1Detail({ onBack }: { onBack: () => void }) {
             <span className="case-section-label">02 / Strategic Positioning</span>
             <div className="case-gallery-grid" style={{ alignItems: 'stretch' }}>
               <div className="case-image-box case-no-border" style={{ background: '#fff', borderRadius: '12px', overflow: 'hidden' }}>
-                <img src="/case1-ingredients.jpg" alt="PenPen Ingredients" className="w-full h-full object-contain" />
+                <img src="/case1-ingredients.webp" alt="PenPen Ingredients" className="w-full h-full object-contain" />
               </div>
               <div className="case-text-block" style={{ display: 'flex', flexDirection: 'column', justifyContent: 'center' }}>
                 <h2 style={{ fontSize: '1.2rem', marginBottom: '0.4rem' }}>从洞察到定位<br />差异化破局</h2>
@@ -305,7 +305,7 @@ function Case1Detail({ onBack }: { onBack: () => void }) {
                 <p>搜索数据证明了定位与用户需求之间的匹配度，我们据此将品牌重心正式锁定为"肠胃健康专家"，并将资源持续倾斜至这一方向。</p>
               </div>
               <div className="case-image-box case-no-border" style={{ aspectRatio: '4/3', background: '#fff' }}>
-                <img src="/case1-ingredient1.png" alt="PenPen Ingredients" className="w-full h-full object-contain" />
+                <img src="/case1-ingredient1.webp" alt="PenPen Ingredients" className="w-full h-full object-contain" />
               </div>
             </div>
           </section>
@@ -324,7 +324,7 @@ function Case1Detail({ onBack }: { onBack: () => void }) {
                 </ul>
               </div>
               <div className="case-image-box case-no-border" style={{ aspectRatio: '4/3', background: '#fff' }}>
-                <img src="/case1-event.jpg" alt="PenPen Event" className="w-full h-full object-contain" />
+                <img src="/case1-event.webp" alt="PenPen Event" className="w-full h-full object-contain" />
               </div>
             </div>
           </section>
@@ -351,7 +351,7 @@ function Case1Detail({ onBack }: { onBack: () => void }) {
               </div>
             </div>
             <div className="case-image-box case-no-border case-wide-image" style={{ background: '#fff' }}>
-              <img src="/case1-products-v2.jpg" alt="PenPen Product Collection" className="w-full h-full object-contain" />
+              <img src="/case1-products-v2.webp" alt="PenPen Product Collection" className="w-full h-full object-contain" />
             </div>
           </section>
 
@@ -460,7 +460,7 @@ function Case2Detail({ onBack }: { onBack: () => void }) {
           {/* Hero */}
           <header className="case-hero">
             <div className="case-hero-banner">
-              <img src="/case2-banner.jpg" alt="Reddit Community Banner" />
+              <img src="/case2-banner.webp" alt="Reddit Community Banner" />
               <div className="case-hero-overlay" style={{ justifyContent: 'flex-end', paddingBottom: '1.5rem' }}>
                 <h1>14K Organic Growth<br />– Niche Community Building.</h1>
                 <div className="case-hero-meta">
@@ -487,7 +487,7 @@ function Case2Detail({ onBack }: { onBack: () => void }) {
                 </ul>
               </div>
               <a href="https://www.reddit.com/r/AskDogOwners/" target="_blank" rel="noopener noreferrer" className="case-image-box case-no-border" style={{ aspectRatio: '4/3', background: '#fff', textDecoration: 'none', cursor: 'pointer', position: 'relative' }}>
-                <img src="/case2-subreddit-v2.png" alt="Dog Owner Subreddit" className="w-full h-full object-contain" />
+                <img src="/case2-subreddit-v2.webp" alt="Dog Owner Subreddit" className="w-full h-full object-contain" />
                 <div style={{ position: 'absolute', bottom: '0.75rem', right: '0.75rem', display: 'flex', alignItems: 'center', gap: '0.35rem', padding: '0.35rem 0.7rem', borderRadius: '6px', background: 'rgb(0 0 0 / 0.7)', fontSize: '0.65rem', color: '#fff', fontWeight: 500 }}>
                   <span>Visit r/AskDogOwners</span>
                   <span>→</span>
@@ -511,7 +511,7 @@ function Case2Detail({ onBack }: { onBack: () => void }) {
                 </ul>
               </div>
               <div className="case-image-box case-no-border" style={{ aspectRatio: '4/3', background: '#fff' }}>
-                <img src="/case2-flair-v2.png" alt="Name My Dog Flair" className="w-full h-full object-contain" />
+                <img src="/case2-flair-v2.webp" alt="Name My Dog Flair" className="w-full h-full object-contain" />
               </div>
             </div>
           </section>
@@ -530,7 +530,7 @@ function Case2Detail({ onBack }: { onBack: () => void }) {
                 </ul>
               </div>
               <div className="case-image-box case-no-border" style={{ aspectRatio: '4/3', background: '#fff' }}>
-                <img src="/case2-ama.png" alt="AMA Detail" className="w-full h-full object-contain" />
+                <img src="/case2-ama.webp" alt="AMA Detail" className="w-full h-full object-contain" />
               </div>
             </div>
           </section>
@@ -544,7 +544,7 @@ function Case2Detail({ onBack }: { onBack: () => void }) {
                 <p>社群不仅成为品牌核心用户池，更形成了可复用的 Reddit 全链路营销方法论，直接带动自然流量和口碑转化。</p>
               </div>
               <div className="case-image-box case-no-border" style={{ aspectRatio: '4/3', background: '#fff' }}>
-                <img src="/case2-insight-v2.png" alt="Reddit Insight Data" className="w-full h-full object-contain" />
+                <img src="/case2-insight-v2.webp" alt="Reddit Insight Data" className="w-full h-full object-contain" />
               </div>
             </div>
             <div className="case-stats-row">
@@ -681,7 +681,7 @@ function Case4Detail({ onBack }: { onBack: () => void }) {
           {/* Hero */}
           <header className="case-hero">
             <div className="case-hero-banner">
-              <img src="/case4-banner-v4.png" alt="Social Media Banner" />
+              <img src="/case4-banner-v4.webp" alt="Social Media Banner" />
               <div className="case-hero-overlay">
                 <h1>Social Media:<br />110K Organic Growth.</h1>
                 <div className="case-hero-meta">
@@ -745,12 +745,12 @@ function Case4Detail({ onBack }: { onBack: () => void }) {
               </div>
               <div className="case-image-box case-no-border" style={{ aspectRatio: '4/3', background: '#fff' }}>
                 <div style={{ display: 'grid', gridTemplateColumns: '1fr 1fr 1fr', gridTemplateRows: '1fr 1fr', gap: '0.4rem', width: '100%', height: '100%', padding: '0.5rem' }}>
-                  <img src="/case4-mat1.png" alt="Material 1" style={{ width: '100%', height: '100%', objectFit: 'contain' }} />
-                  <img src="/case4-mat2.png" alt="Material 2" style={{ width: '100%', height: '100%', objectFit: 'contain' }} />
-                  <img src="/case4-mat3.png" alt="Material 3" style={{ width: '100%', height: '100%', objectFit: 'contain' }} />
-                  <img src="/case4-mat5.png" alt="Material 5" style={{ width: '100%', height: '100%', objectFit: 'contain' }} />
-                  <img src="/case4-mat6.png" alt="Material 6" style={{ width: '100%', height: '100%', objectFit: 'contain' }} />
-                  <img src="/case4-mat-new.png" alt="Material New" style={{ width: '100%', height: '100%', objectFit: 'contain' }} />
+                  <img src="/case4-mat1.webp" alt="Material 1" style={{ width: '100%', height: '100%', objectFit: 'contain' }} />
+                  <img src="/case4-mat2.webp" alt="Material 2" style={{ width: '100%', height: '100%', objectFit: 'contain' }} />
+                  <img src="/case4-mat3.webp" alt="Material 3" style={{ width: '100%', height: '100%', objectFit: 'contain' }} />
+                  <img src="/case4-mat5.webp" alt="Material 5" style={{ width: '100%', height: '100%', objectFit: 'contain' }} />
+                  <img src="/case4-mat6.webp" alt="Material 6" style={{ width: '100%', height: '100%', objectFit: 'contain' }} />
+                  <img src="/case4-mat-new.webp" alt="Material New" style={{ width: '100%', height: '100%', objectFit: 'contain' }} />
                 </div>
               </div>
             </div>
@@ -772,14 +772,14 @@ function Case4Detail({ onBack }: { onBack: () => void }) {
               <div className="case-image-box case-no-border" style={{ aspectRatio: '4/3', background: '#fff' }}>
                 <div style={{ display: 'grid', gridTemplateColumns: '1fr 1fr', gap: '0.75rem', width: '100%', height: '100%', padding: '0.75rem' }}>
                   <a href="https://www.instagram.com/penpenpet/" target="_blank" rel="noopener noreferrer" style={{ display: 'flex', flexDirection: 'column', alignItems: 'center', gap: '0.5rem', textDecoration: 'none', padding: '0.5rem', borderRadius: '10px', border: '1.5px solid var(--border)', transition: 'all 0.2s', background: 'var(--bg-secondary)' }} className="social-link-card">
-                    <img src="/case4-ig-final.png" alt="Instagram" style={{ width: '100%', height: '75%', objectFit: 'contain', borderRadius: '6px' }} />
+                    <img src="/case4-ig-final.webp" alt="Instagram" style={{ width: '100%', height: '75%', objectFit: 'contain', borderRadius: '6px' }} />
                     <div style={{ display: 'flex', alignItems: 'center', gap: '0.35rem' }}>
                       <span style={{ fontSize: '0.7rem', fontWeight: 600, color: 'var(--text-primary)' }}>Instagram</span>
                       <span style={{ fontSize: '0.65rem', color: 'var(--accent)' }}>@penpenpet →</span>
                     </div>
                   </a>
                   <a href="https://www.tiktok.com/@penpenpet" target="_blank" rel="noopener noreferrer" style={{ display: 'flex', flexDirection: 'column', alignItems: 'center', gap: '0.5rem', textDecoration: 'none', padding: '0.5rem', borderRadius: '10px', border: '1.5px solid var(--border)', transition: 'all 0.2s', background: 'var(--bg-secondary)' }} className="social-link-card">
-                    <img src="/case4-tk-final.png" alt="TikTok" style={{ width: '100%', height: '75%', objectFit: 'contain', borderRadius: '6px' }} />
+                    <img src="/case4-tk-final.webp" alt="TikTok" style={{ width: '100%', height: '75%', objectFit: 'contain', borderRadius: '6px' }} />
                     <div style={{ display: 'flex', alignItems: 'center', gap: '0.35rem' }}>
                       <span style={{ fontSize: '0.7rem', fontWeight: 600, color: 'var(--text-primary)' }}>TikTok</span>
                       <span style={{ fontSize: '0.65rem', color: 'var(--accent)' }}>@penpenpet →</span>
@@ -925,7 +925,7 @@ function Case3Detail({ onBack }: { onBack: () => void }) {
           {/* Hero */}
           <header className="case-hero">
             <div className="case-hero-banner">
-              <img src="/case3-banner-v2.png" alt="RC Model GTM Banner" />
+              <img src="/case3-banner-v2.webp" alt="RC Model GTM Banner" />
               <div className="case-hero-overlay">
                 <h1>RC Model GTM:<br />Military Market Entry.</h1>
                 <div className="case-hero-meta">
@@ -951,7 +951,7 @@ function Case3Detail({ onBack }: { onBack: () => void }) {
                 </ul>
               </div>
               <div className="case-image-box case-no-border" style={{ aspectRatio: '4/3', background: '#fff' }}>
-                <img src="/case3-banner-new.png" alt="RC Model Banner" className="w-full h-full object-contain" />
+                <img src="/case3-banner-new.webp" alt="RC Model Banner" className="w-full h-full object-contain" />
               </div>
             </div>
           </section>
@@ -973,9 +973,9 @@ function Case3Detail({ onBack }: { onBack: () => void }) {
               </div>
               <div className="case-image-box case-no-border" style={{ aspectRatio: '4/3', background: '#fff' }}>
                 <div style={{ display: 'grid', gridTemplateRows: '1fr 1fr', gridTemplateColumns: '1fr 1fr', gap: '0.5rem', width: '100%', height: '100%', padding: '0.5rem' }}>
-                  <img src="/case3-yt-v1.png" alt="YT Review 1" style={{ width: '100%', height: '100%', objectFit: 'contain', gridColumn: '1 / -1' }} />
-                  <img src="/case3-yt-v2.png" alt="YT Review 2" style={{ width: '100%', height: '100%', objectFit: 'contain' }} />
-                  <img src="/case3-yt-v3.png" alt="YT Review 3" style={{ width: '100%', height: '100%', objectFit: 'contain' }} />
+                  <img src="/case3-yt-v1.webp" alt="YT Review 1" style={{ width: '100%', height: '100%', objectFit: 'contain', gridColumn: '1 / -1' }} />
+                  <img src="/case3-yt-v2.webp" alt="YT Review 2" style={{ width: '100%', height: '100%', objectFit: 'contain' }} />
+                  <img src="/case3-yt-v3.webp" alt="YT Review 3" style={{ width: '100%', height: '100%', objectFit: 'contain' }} />
                 </div>
               </div>
             </div>
@@ -996,9 +996,9 @@ function Case3Detail({ onBack }: { onBack: () => void }) {
               </div>
               <div className="case-image-box case-no-border" style={{ aspectRatio: '4/3', background: '#fff' }}>
                 <div style={{ display: 'grid', gridTemplateColumns: '1fr 1fr', gridTemplateRows: '1fr 1fr', gap: '0.5rem', width: '100%', height: '100%', padding: '0.5rem' }}>
-                  <img src="/case3-old1.png" alt="Old Page 1" style={{ width: '100%', height: '100%', objectFit: 'contain' }} />
-                  <img src="/case3-old3.png" alt="Old Page 3" style={{ width: '100%', height: '100%', objectFit: 'contain' }} />
-                  <img src="/case3-old4.png" alt="Old Page 4" style={{ width: '100%', height: '100%', objectFit: 'contain', gridColumn: '1 / -1' }} />
+                  <img src="/case3-old1.webp" alt="Old Page 1" style={{ width: '100%', height: '100%', objectFit: 'contain' }} />
+                  <img src="/case3-old3.webp" alt="Old Page 3" style={{ width: '100%', height: '100%', objectFit: 'contain' }} />
+                  <img src="/case3-old4.webp" alt="Old Page 4" style={{ width: '100%', height: '100%', objectFit: 'contain', gridColumn: '1 / -1' }} />
                 </div>
               </div>
             </div>
@@ -1131,9 +1131,9 @@ export default function CaseStudies() {
             style={{ backgroundColor: 'var(--bg-secondary)' }}
           >
             {selectedCase.id === 1 ? (
-              <img src="/case1-banner.jpg" alt="PenPen Banner" className="w-full h-full object-cover" />
+              <img src="/case1-banner.webp" alt="PenPen Banner" className="w-full h-full object-cover" />
             ) : selectedCase.id === 2 ? (
-              <img src="/case2-banner.jpg" alt="Reddit Community Banner" className="w-full h-full object-cover" />
+              <img src="/case2-banner.webp" alt="Reddit Community Banner" className="w-full h-full object-cover" />
             ) : (
               <div className="w-full h-full flex items-center justify-center">
                 <span className="text-sm" style={{ color: 'var(--text-muted)' }}>
@@ -1315,13 +1315,13 @@ export default function CaseStudies() {
                 style={{ backgroundColor: 'var(--bg-secondary)' }}
               >
                 {caseItem.id === 1 ? (
-                  <img src="/case1-banner.jpg" alt="PenPen Banner" className="w-full h-full object-cover" />
+                  <img src="/case1-banner.webp" alt="PenPen Banner" className="w-full h-full object-cover" />
                 ) : caseItem.id === 2 ? (
-                  <img src="/case2-banner.jpg" alt="Reddit Community Banner" className="w-full h-full object-cover" />
+                  <img src="/case2-banner.webp" alt="Reddit Community Banner" className="w-full h-full object-cover" />
                 ) : caseItem.id === 3 ? (
-                  <img src="/case3-banner-v2.png" alt="RC Model GTM Banner" className="w-full h-full object-cover" />
+                  <img src="/case3-banner-v2.webp" alt="RC Model GTM Banner" className="w-full h-full object-cover" />
                 ) : caseItem.id === 4 ? (
-                  <img src="/case4-banner-v4.png" alt="Social Media Banner" className="w-full h-full object-cover" />
+                  <img src="/case4-banner-v4.webp" alt="Social Media Banner" className="w-full h-full object-cover" />
                 ) : (
                   <div className="w-full h-full flex items-center justify-center">
                     <span className="text-sm" style={{ color: 'var(--text-muted)' }}>

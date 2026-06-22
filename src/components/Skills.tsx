@@ -202,7 +202,7 @@ export default function Skills() {
               {/* 左栏：预览截图 */}
               <div className="space-y-4">
                 <div className="w-full aspect-[4/3] rounded-2xl overflow-hidden flex items-center justify-center" style={{ backgroundColor: 'var(--bg-secondary)', boxShadow: '0 4px 20px rgba(0,0,0,0.06)' }}>
-                  <img src="/acg-preview.png" alt="ACG Platform Preview" className="w-full h-full object-cover" />
+                  <img src="/acg-preview.webp" alt="ACG Platform Preview" className="w-full h-full object-cover" />
                 </div>
                 {selectedSkill.websiteUrl && (
                   <a
