@@ -304,8 +304,8 @@ function Case1Detail({ onBack }: { onBack: () => void }) {
                 <p>品牌定位确立后，通过内容测试进行快速验证：发布与益生菌/肠胃健康相关的教育科普内容（如"狗狗呕吐物颜色预示什么"），TikTok+Instagram 双平台累计播放量突破 <strong>1000万</strong>，用户主动搜索"dog gut health"时 PenPen 内容占据前排。</p>
                 <p>搜索数据证明了定位与用户需求之间的匹配度，我们据此将品牌重心正式锁定为"肠胃健康专家"，并将资源持续倾斜至这一方向。</p>
               </div>
-              <div className="case-image-box case-no-border" style={{ aspectRatio: '4/3', background: '#fff' }}>
-                <img src="/case1-ingredient1.webp" alt="PenPen Ingredients" className="w-full h-full object-contain" />
+              <div className="case-image-box case-no-border" style={{ aspectRatio: '16/9', background: '#fff' }}>
+                <img src="/case1-ranking.webp" alt="PenPen Ranking Data" className="w-full h-full object-contain" loading="lazy" />
               </div>
             </div>
           </section>
