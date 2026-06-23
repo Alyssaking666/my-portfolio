@@ -12,7 +12,7 @@ const HIGHLIGHTS = [
   {
     number: "0-1",
     title: "核心业务线孵化",
-    desc: "构建红人/私域/Reddit三大板块，助力公司达成千万级",
+    desc: "从0搭建红人/Reddit/社媒三大增长板块，服务8+品牌",
   },
   {
     number: "3个月",
